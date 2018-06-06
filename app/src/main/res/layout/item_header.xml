@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/bgItem"
+    android:padding="@dimen/padding">
+
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/bgGray"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textSize="@dimen/textSizeHeader"
+        android:textStyle="bold"
+        tools:text="Header"/>
+</FrameLayout>
